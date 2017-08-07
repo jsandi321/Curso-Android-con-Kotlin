@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".Main2Activity" />
         <activity android:name=".layouts" />
-        <activity android:name=".LinearLayout"></activity>
+        <activity android:name=".LinearLayout" />
+        <activity android:name=".Table_layout"></activity>
     </application>
 
 </manifest>

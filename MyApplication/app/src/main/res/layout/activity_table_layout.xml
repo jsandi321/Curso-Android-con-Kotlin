@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pablo384.myapplication.Table_layout">
+
+    <TableRow>
+        <TextView android:text="Celda 1,1" android:background="@color/colorAccent"/>
+        <TextView android:text="Celda 1,2"/>
+        <TextView android:text="Celda 1,3"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Celda 2,1" android:background="@color/colorAccent"/>
+        <TextView android:text="Celda 2,2"/>
+        <TextView android:text="Celda 2,3"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_span="2"
+            android:background="@color/colorAccent"
+            android:text="Celda 2,1"
+            android:textAlignment="center" />
+        <TextView android:text="Celda 2,3"/>
+    </TableRow>
+
+
+
+</TableLayout>
