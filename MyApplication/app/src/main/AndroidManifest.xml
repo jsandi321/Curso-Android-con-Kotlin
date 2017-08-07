@@ -10,11 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Main2Activity" />
         <activity android:name=".layouts" />
@@ -22,7 +17,13 @@
         <activity android:name=".Table_layout" />
         <activity android:name=".Relative_layout" />
         <activity android:name=".Constrain_layout" />
-        <activity android:name=".botones_basico"></activity>
+        <activity android:name=".botones_basico">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

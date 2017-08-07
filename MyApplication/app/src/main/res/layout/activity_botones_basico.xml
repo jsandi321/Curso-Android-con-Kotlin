@@ -10,22 +10,25 @@
     tools:context="com.example.pablo384.myapplication.botones_basico">
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button 1" />
     <ToggleButton
+        android:id="@+id/toggleB"
         android:textOn="encendido"
         android:textOff="apagado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <Switch
+        android:id="@+id/swirch"
         android:checked="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <ImageButton
+        android:id="@+id/imgButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
