@@ -21,7 +21,8 @@
         <activity android:name=".LinearLayout" />
         <activity android:name=".Table_layout" />
         <activity android:name=".Relative_layout" />
-        <activity android:name=".Constrain_layout"></activity>
+        <activity android:name=".Constrain_layout" />
+        <activity android:name=".botones_basico"></activity>
     </application>
 
 </manifest>
