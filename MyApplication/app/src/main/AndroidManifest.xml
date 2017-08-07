@@ -19,7 +19,9 @@
         <activity android:name=".Main2Activity" />
         <activity android:name=".layouts" />
         <activity android:name=".LinearLayout" />
-        <activity android:name=".Table_layout"></activity>
+        <activity android:name=".Table_layout" />
+        <activity android:name=".Relative_layout" />
+        <activity android:name=".Constrain_layout"></activity>
     </application>
 
 </manifest>
