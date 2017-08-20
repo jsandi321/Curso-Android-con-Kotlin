@@ -17,15 +17,16 @@
         <activity android:name=".Relative_layout" />
         <activity android:name=".Constrain_layout" />
         <activity android:name=".botones_basico">
+        </activity>
+        <activity android:name=".imagenes" />
+        <activity android:name=".textview" />
+        <activity android:name=".edittext">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".imagenes" />
-        <activity android:name=".textview" />
-        <activity android:name=".edittext"></activity>
     </application>
 
 </manifest>
