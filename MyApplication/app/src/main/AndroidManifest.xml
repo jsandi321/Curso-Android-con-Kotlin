@@ -24,7 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".imagenes" />
-        <activity android:name=".textview"></activity>
+        <activity android:name=".textview" />
+        <activity android:name=".edittext"></activity>
     </application>
 
 </manifest>
